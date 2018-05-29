@@ -52,7 +52,7 @@
 #' @return 
 #'   List of class \code{ODEmorris} of length \code{length(state_init)} 
 #'   containing in each element a matrix for one state variable. The
-#'   matrices itself contain the Morris screening results for all timepoints 
+#'   matrices themselves contain the Morris screening results for all timepoints 
 #'   (rows: \code{mu, mu.star} and \code{sigma} for every parameter; columns: 
 #'   timepoints).
 #'
@@ -62,7 +62,7 @@
 #'   
 #'   The sensitivity analysis is done for all state variables and all
 #'   timepoints simultaneously using \code{\link[sensitivity]{morris}} from the 
-#'   package \code{sensitivity}.
+#'   package \code{\link[sensitivity]{sensitivity}}.
 #'   
 #'   For non-ODE models, values for \code{r} are typically between 10 and 50.
 #'   However, much higher values are recommended for ODE models (the default is
