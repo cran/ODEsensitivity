@@ -1,5 +1,5 @@
 Package: ODEsensitivity
-Version: 1.1.1
+Version: 1.1.2
 Title: Sensitivity Analysis of Ordinary Differential Equations
 Description: Performs sensitivity analysis in ordinary differential equation (ode) models.
     The package utilize the ode interface from 'deSolve' and connects it with the 
@@ -24,10 +24,10 @@ RoxygenNote: 6.0.1
 VignetteBuilder: knitr
 Language: en-US
 NeedsCompilation: no
-Packaged: 2018-05-24 12:53:02 UTC; surmann
+Packaged: 2019-01-09 08:50:48 UTC; Dirk
 Author: Frank Weber [aut],
   Stefan Theers [aut],
   Dirk Surmann [ctb, cre] (<https://orcid.org/0000-0003-0873-137X>)
 Maintainer: Dirk Surmann <surmann@statistik.tu-dortmund.de>
 Repository: CRAN
-Date/Publication: 2018-05-29 17:33:01 UTC
+Date/Publication: 2019-01-09 09:10:04 UTC
